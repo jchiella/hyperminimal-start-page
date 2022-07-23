@@ -29,4 +29,10 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 10rem;
   font-weight: 600;
+  transform: scale(1);
+  transition: all 300ms 0ms ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.1);
 }
